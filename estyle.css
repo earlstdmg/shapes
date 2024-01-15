@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body {
+    background-color: rgb(38, 145, 139)
+   }
+
+h2{
+        text-align: center;
+        margin: 10px;
+}
+footer{
+    border-radius: 4px;
+    border: 2px solid black;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 84%;
+    right: 31.5%;
+    background-color: skyblue;
+}
+p{
+    text-align: center;
+    font-size: large;
+    margin-top: 15px;
+}
+#myCanvas{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    width: 150px;
+    height: 90px;     
+}
+.upperPanel{
+    border-radius: 4px;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 3%;
+    right: 48%;
+    background-color: skyblue;
+     margin-right: -75px;
+}
+#table{
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    position: absolute;  
+    width: 40%;
+    height: 60%;
+    right: 30%;
+    top: 15%;
+    background-color: skyblue;
+}
+.v1{
+    border-left: 2px solid black;
+    height: 60%;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+}
+.v2{
+    border-left: 2px solid black;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+.v3{
+    border-left: 2px solid black;
+    height: 60%;
+    position: absolute;
+    left: 60%;
+    top: 100px;
+}
+.h1{
+    border-color: black;
+    position: absolute;
+    width: 40%;
+    top: 185px;
+    left: 408px;
+}
+.h2{
+    border-color: black;
+    position: absolute;
+    width: 40%;
+    top: 290px;
+    left: 408px;
+}
+.h3{
+    border-color: black;
+    position: absolute;
+    width: 40%;
+    top: 390px;
+    left: 408px;
+}
